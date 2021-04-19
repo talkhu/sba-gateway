@@ -10,7 +10,6 @@ pool:
   name: Default
   demands: 
   - maven
-  - JAVA_HOME_8_X64
 
 
 steps:
