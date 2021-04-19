@@ -6,7 +6,12 @@
 trigger:
 - master
 
-pool: Default
+pool: 
+  name: Default
+  demands: 
+  - maven
+  - JAVA_HOME_8_X64
+
 
 steps:
 - task: Maven@3
